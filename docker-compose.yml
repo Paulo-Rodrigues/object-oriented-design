@@ -1,8 +1,6 @@
-version: "3.9"
-
 services:
   parking_lot:
     image: ruby:3.2.2
-    working_dir: /parking_lot
+    working_dir: /ood
     volumes:
-      - ./parking_lot:/parking_lot
+      - .:/ood
