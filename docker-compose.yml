@@ -1,5 +1,5 @@
 services:
-  parking_lot:
+  ood:
     image: ruby:3.2.2
     working_dir: /ood
     volumes:
